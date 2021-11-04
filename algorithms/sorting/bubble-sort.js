@@ -7,7 +7,7 @@ function bubbleSort(array) {
   const arr = [...array];
 
   for(let currentPass = 0; currentPass < arr.length; currentPass++) {
-    for(let currentIndex = 0; currentIndex < arr.length; currentIndex++) {
+    for(let currentIndex = 0; currentIndex < arr.length - currentPass; currentIndex++) {
       // swaps two consecutive elements if they are not in ascending order.
       if(arr[currentIndex] > arr[currentIndex + 1]) {
         const temp = arr[currentIndex];
