@@ -54,6 +54,8 @@ function merge(arrayFirst, arraySecond) {
   return arrayThird;
 }
 
+
 console.log(
   mergeSort([2, 8, 5, 3, 9, 4, 1, 7])
 );
+// [1, 2, 3, 4, 5, 7, 8, 9];
